@@ -1,0 +1,150 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY CSS */
+body {
+font-family: arial;
+background:#c6c6c6;
+}
+
+#wrapper{
+width: 400px;
+margin: 0 auto;
+}
+
+#header{
+text-align: center;
+margin-bottom: 13px;
+}
+/* CONTENT */
+#content{
+background: #FFFFFF;
+}
+
+#searchForm{
+background: url("../images/searchBg.jpg") repeat scroll 0 0 transparent;
+padding: 12px;
+}
+
+#textSong {
+    border: 1px solid #CF6B00;
+    font-size: 20px;
+    height: 28px;
+    padding: 3px;
+    width: 323px;
+	vertical-align: middle;
+}
+
+#submit {
+    color: #FFFFFF;
+    font-weight: bold;
+	vertical-align: middle;
+}
+#listSong {
+width: 100%;
+}
+.song{
+border-bottom: 1px solid #c6c6c6;
+padding: 10px 15px 3px 15px;
+}
+.song:hover{
+background: #FFDDAE;
+}
+.songID{
+color:#fc9627;
+font-weight: bold;
+font-size:30px;
+margin-bottom: 4px;
+}
+.songName{
+color:#fc9627;
+font-weight: bold;
+font-size:18px;
+margin-bottom: 5px;
+}
+.SongLyric{
+color:#5b5b5b;
+font-size:18px;
+margin-bottom: 5px;
+}
+.author{
+color:#5b5b5b;
+font-size:14px;
+font-style: italic;
+}
+#paginator {
+text-align: right;
+padding-top:6px;
+padding-bottom: 7px;
+padding-right: 10px;
+font-size: 14px;
+font-weight: bold;
+color: #cf6b00;
+}
+.arrow{
+vertical-align: middle;
+}
+#fastLink{
+text-align: center;
+background: none repeat scroll 0 0 #C6C6C6;
+padding-bottom: 3px;
+}
+#fastLink a{
+text-decoration: none;
+font-size: 14px;
+color: #FFFFFF;
+font-weight: bold;
+}
+/* FOOTER */
+#footer{
+clear: both;
+text-align: center;
+color: #FFFFFF;
+font-size: 14px;
+padding-top: 13px;
+}
+#footer a{
+color: #FFFFFF;
+}
