@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Administration Area</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="js/functions.js" language="JavaScript" type="text/javascript"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<br><br><br><br><br><br><br><br><br><br>
+<script>
+document.write('<body onLoad="document.frm_login.username.focus();">');
+</script>
+<table width="60%"  border="0" cellspacing="0" cellpadding="1" align="center">
+  <tr>
+    <td><img src="images/cms_site.gif" width="300" height="20"></td>
+  </tr>
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="3" align="center" >
+      <form name="frm_login" method="post" action="login.php">
+        <tr>
+          <td colspan="2" class="headtd">Please login to access</td>
+        </tr>
+        <tr >
+          <td width="35%" class="row1td"><font color="#666666"><b>Admin name</b> </font></td>
+          <td width="65%" class="row2td">
+            <input type="text" name="username" size="30" maxlength="30"></td>
+        </tr>
+        <tr >
+          <td class="row1td"><font color="#666666"><b>Password  </b></font></td>
+          <td class="row2td"><input type="password" name="password" size="30" maxlength="30"></td>
+        </tr>
+        <tr >
+          <td colspan="2" align="center" class="row2td"><input type="submit" name="login" class="button" value="Login"></td>
+        </tr>
+        <input type="hidden" name="sid" value="1bd66abb6d5cafefd82d7ced6b3694ad">
+      </form>
+    </table></td>
+  </tr>
+  
+</table>
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Administration Area</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="js/functions.js" language="JavaScript" type="text/javascript"></script>
+
+<script language="Javascript1.2">
+<!-- // load htmlarea
+_editor_url = "";                     // URL to htmlarea files
+var win_ie_ver = parseFloat(navigator.appVersion.split("MSIE")[1]);
+if (navigator.userAgent.indexOf('Mac')        >= 0) { win_ie_ver = 0; }
+if (navigator.userAgent.indexOf('Windows CE') >= 0) { win_ie_ver = 0; }
+if (navigator.userAgent.indexOf('Opera')      >= 0) { win_ie_ver = 0; }
+if (win_ie_ver >= 5.5) {
+  document.write('<scr' + 'ipt src="js/editor.js"');
+  document.write(' language="Javascript1.2"></scr' + 'ipt>');  
+} else { document.write('<scr'+'ipt>function editor_generate() { return false; }</scr'+'ipt>'); }
+// -->
+</script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<table width="99%"  border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td>
+	 <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td colspan="10" align="center" valign="top"  class="topheadtd">
+		    <table width="100%"  border="0" cellspacing="0" cellpadding="1">
+            <tr>
+              <td align="left" width="50%"><font style="font-size:18px;font-weight:bold;color:white ">CHITHANHVN Administration</font></td>
+              <td align="right" height="50%">
+				  <font class="f10" color="#DDDDDD">Your IP is <b>::1</b>. Time now is 10:34:34 05/06/2012.</font>
+			 
+			 </td>
+            </tr>
+            <tr>
+              <td ><font style="font-size:17px;font-weight:bold;color:#FFCC66 ">&#8250;Qu?n l� n?i dung website</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="button" style="font-weight:bold;color:#666666;padding:0px" value="Refresh" onClick="window.location.reload();"></td>
+              <td align="right">&nbsp;<font class="f10" color="white">B?n ??ng nh?p v?i t�i kho?n <b>mtm</b>.</font> <input type="button" class="button" style="font-weight:bold;color:#CC0000;padding:0px" value="Logout" onClick="ask('login.php?act=logout','Are you sure you want to LOGOUT ?');"></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+      <br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+				<form name="frm_addcat" method="post" action="admin.php?rid=97263087&mdl=content&p=add_cat" enctype="multipart/form-data">
+				  <tr>
+					 <td colspan="2" class="headtd"><a href="admin.php?rid=97263087&mdl=content">Qu?n l�</a> &#8250; T?o th? m?c m?i</td>
+				  </tr><tr>
+				<td width="25%" valign="top"  class="row1td"><b>Tên thư mục *</b></td>
+				<td width="75%"  class="row2td"><input type="text" name="name" style="width:400px" value="" /></td>
+				</tr><tr>
+				<td width="25%" valign="top"  class="row1td"><b><font color="blue">Folder name</b></td>
+				<td width="75%"  class="row2td"><input type="text" name="name_en" style="width:500px" value="" /></td>
+				</tr><tr >
+							<td class="row1td" valign="top"><b>Thu?c th? m?c</b></td>
+							<td class="row2td"><select name="parent_id"><option value="0" style="color:#666666 ">---Kh�ng thu?c th? m?c n�o---</option><option value="1" style="color:red">&#8250; Giới thiệu</option><option value="2" style="color:red">&#8250; Tin tức & Sự kiện</option><option value="3" style="color:red">&#8250; Đại lý</option><option value="4" style="color:red">&#8250; Liên hệ</option></select></td>
+						</tr><tr > 
+						<td valign="top" class="row1td"><b>Hi?n th?</b></td>
+						<td class="row2td"><input type="radio" name="active" class="box" value="1" checked=true /> C�&nbsp;&nbsp;&nbsp;<input type="radio" name="active" class="box" value="0" /> Kh�ng</td>
+						</tr><tr >
+					 <td colspan="2" align="center" class="row2td">
+					 	<input name="insert_cat" type="submit" class="button" value="Th�m v�o"></td>
+					</tr>
+				 </form>
+				</table> 
+      <br>
+				<div align="left"><font class="grey10">C�c m?c c� d?u * l� b?t bu?c ph?i nh?p v�o</font></div>
+      <table width="100%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+		   <td class="topheadtd" style="padding:1px">
+			
+			 <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+			 <tr>
+          <td width="90%">
+			 <font class="f10" color="FFFFFF">
+						 <b><a href="admin.php?mdl=site_config"  title="Edit site configs"><font color="#FFFFFF">Site configs</font></a></b>
+				|
+			<b><a href="admin.php?mdl=admins" title="Create,manage admin accounts"><font color="#FFFFFF">Admin accounts</font></a></b>
+				|
+							<b><a href="admin.php?mdl=support" title="Contact me if you want to get help or report error" ><font color="#FFFFFF">Support</font></a></b>
+				
+			 </font>
+			</td>
+			 <td width="10%" align="right"><img src="images/top.gif" width="25" height="18" border="0" style="cursor:hand " onClick="window.location='#top'"></td>
+			 </tr>
+			</table>
+			</td>
+        </tr>
+      </table>
+		<br>
+		      
+    <table width="100%"  border="0" cellpadding="2" cellspacing="1">
+      <tr>
+        <td align="center" class="info"><br>Copyright &copy; 2006 Team  Web Designer <a href="mailto:mtm1517@yahoo.com"><strong>MTM1517</strong></a> -<a href="mailto:buivantienduc@yahoo.com"><strong>Bui Van Tien Duc</strong></a></td>
+      </tr>
+    </table>
+	 </td>
+      </tr>
+    </table>
+<br />
+</body>
+</html>
